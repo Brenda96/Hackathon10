@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problema5</title>
+    <script>
+        /*
+       Ejercicio5
+       Crear una función que reciba una matriz de valores y filtre los valores que no
+       son string
+       */
+         function e5_nostring(elemento){
+           return typeof elemento !== 'string'
+       }
+
+       function e5_filtrar(array){
+           return array.filter(e5_nostring);
+       }
+
+       console.log(e5_filtrar([1,2,'Julia',3,5,'Chau',null]));
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

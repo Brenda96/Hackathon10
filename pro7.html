@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problema7</title>
+    <script>
+        /*
+       Ejercicio7
+       Escriba una función que tome una matriz de 10 enteros (entre 0 y 9) y devuelva
+       una cadena en forma de un número de teléfono
+       */
+        function e7_telefono (array){
+           let number = array.join('');
+           let codigo = number.slice(0,3);
+           let telef_ini = number.slice(3,6);
+           let telef_fin = number.slice(6,10);
+
+           return console.log('('+codigo+')'+' '+telef_ini+'-'+telef_fin);
+       }
+
+       e7_telefono([1,2,3,4,5,6,7,8,9,0]);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

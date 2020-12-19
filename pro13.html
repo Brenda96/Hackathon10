@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problema13</title>
+    <script>
+         /*
+       Ejercicio13
+       Escriba una función que convierta un objeto en una matriz de claves y valores.
+       */
+        function e13_toArray(object){
+           return Object.entries(object);
+       }
+
+       function e13_main(){
+           let e10_objeto = {
+                               likes: 2,
+                               dislikes: 3,
+                               followers: 10
+                       };
+           return console.log(e13_toArray(e10_objeto));
+       }
+
+       e13_main();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

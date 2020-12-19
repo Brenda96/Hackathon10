@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problema8</title>
+    <script>
+         /*
+       Ejercicio8
+       Cree una función que tome una matriz de matrices con números. Devuelve una
+       nueva matriz (única) con el mayor número de cada uno.
+       */
+        function e8_findLargestNums(array){
+           const e8_prueba = [];
+           array.forEach(element => e8_prueba.push(Math.max(...element)));
+           return console.log(e8_prueba);
+       }
+
+       e8_findLargestNums([[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]]);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

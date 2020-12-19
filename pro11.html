@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problema11</title>
+    <script>
+         /*
+       Ejercicio11
+       Cree la función que toma una matriz con objetos y devuelve la suma de los
+       presupuestos de las personas.
+       */
+         function e11_sumofbudget(array){
+           let sum = 0;
+           for (i = 0; i<array.length; i++){
+               sum = sum + array[i].budget;
+           }
+           return 'La suma de los presupuesto es: '+sum;
+       }
+
+       function e11_main(){
+           let getBudgets = [
+                               { name: "John", age: 21, budget: 23000 },
+                               { name: "Steve", age: 32, budget: 40000 },
+                               { name: "Martin", age: 16, budget: 2700 }
+                           ];
+           return console.log(e11_sumofbudget(getBudgets));
+       }
+
+       e11_main(); 
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

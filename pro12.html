@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problema12</title>
+    <script>
+         /*
+       Ejercicio12
+       Cree una función que tome una matriz de estudiantes y devuelva una matriz de
+       nombres de estudiantes.
+       */
+        let StudentNames = [
+                               { name: "Steve" },
+                               { name: "Mike" },
+                               { name: "John" }
+                               ];
+       
+       function getnames(array){
+           let e12_students = [];
+           array.forEach(element => e12_students.push(element.name));
+           return console.log(e12_students);
+       }
+
+       getnames(StudentNames);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

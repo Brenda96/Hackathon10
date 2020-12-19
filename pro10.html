@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problema10</title>
+    <script>
+          /*
+       Ejercicio10
+       Escriba una función que convierta un objeto en una matriz, donde cada elemento 
+       representa un par clave-valor.
+       */
+      function e10_toArray(object){
+           return Object.entries(object);
+      }
+
+      function e10_main(){
+           let e10_objeto = {
+                       a: 1,
+                       b: 2
+                       };
+           return console.log(e10_toArray(e10_objeto));
+      }
+
+      e10_main();  
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

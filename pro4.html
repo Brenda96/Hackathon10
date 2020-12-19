@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problema4</title>
+    <script>
+        /*
+       Ejercicio4
+       Crear una función que reciba n cantidad de argumentos y los sume.
+       */
+function sum(...rest) {
+    let valor = 0;
+    for (let n of rest) valor += n;
+    console.log(valor);
+
+    alert('La cadena que se debe sumar es (18, 20, 22, 25, 30), y la suma es '+valor);
+}
+
+sum(18, 20, 22, 25, 30);  
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

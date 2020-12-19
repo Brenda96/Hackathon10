@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problema22</title>
+    <script>
+       /*
+       Ejercicio22
+       Cree una función que capitalice la última letra de cada palabra
+       */
+         function e22_capLast(string){
+           let indexCapLetter = string.length-1;
+           let partini = string.substr(0,indexCapLetter);
+           let capletter = string.charAt(indexCapLetter).toUpperCase();
+           return partini+capletter;
+       }
+
+       console.log(e22_capLast('hello'));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

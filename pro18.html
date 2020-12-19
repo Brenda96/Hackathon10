@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problema18</title>
+    <script>
+        /*
+       Ejercicio18
+       Cree una función que filtre las cadenas de una matriz y devuelva una nueva
+       matriz que solo contenga enteros
+       */
+       function e18_esnumero(elemento){
+           return typeof elemento === 'number'
+       }
+
+       function e18_filterList(array){
+           return array.filter(e18_esnumero);
+       }
+       
+       console.log(e18_filterList([1, 2, 3, 'x', 'y', 10]));
+ 
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
